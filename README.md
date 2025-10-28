@@ -1,7 +1,7 @@
 # Student_score_analysis
 Dette er et søndagsprosjekt hvor jeg utforsker et datasett med både lineær og klassifikasjonsmodell. Mål er å undersøke hvordan faktorer som antall timer studert, søvntimer og oppmøteprosent påvirker elevers eksamensresultater.
 
-Datasettet består av et visst antall elevers poengsum fra en prøve, samt relevante faktorer som kan påvirke prestasjonen. Datasette ble hentet fra Kaggle, url: https://www.kaggle.com/datasets/grandmaster07/student-exam-score-dataset-analysis/data.
+Datasettet består av et visst antall elevers poengsum fra en prøve, samt relevante faktorer som kan påvirke prestasjonen. Datasettet ble hentet fra Kaggle, url: https://www.kaggle.com/datasets/grandmaster07/student-exam-score-dataset-analysis/data.
 
 Projektet ble utført på google colab, og notebooken er tilgjengelig i repoet.
 
@@ -11,7 +11,7 @@ Modeller benyttet:
         Random Forest-klassifikator - For å klassifisere karakterer (A-F)
 Evaluering:
           MSE, R^2-score for regresjonsdelen
-          Presisjon, recall,F1-score og confusion matrix for    klassifikasjonsdelen.
+          Presisjon, recall,F1-score og confusion matrix for klassifikasjonsdelen.
 
 Biblioteker brukt:
 Pandas
@@ -29,7 +29,7 @@ Modellen forvekslet ofte midtre karakterer (B-E), noe som viser til overlapp i d
 Feature importance viste at hours_studied hadde størst innflytelse på resultatene.
 
 Mulig videre arbeid:
-Balansere datasettene for bedre klassedistribusjon
-Utforske flere modeller
+Balansere datasettene for bedre klassedistribusjon,
+utforske flere modeller,
 Evt. optimalisere hyperparametere.
 
